@@ -1,0 +1,8 @@
+{
+  "name": "Shopmate API" ,
+  "database": {
+    "name": "tshirtshop",
+    "username": "exchange",
+    "password": "$2MbeyondtheM!!"
+  }
+}

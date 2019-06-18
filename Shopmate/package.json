@@ -1,0 +1,15 @@
+{
+  "author": {
+    "name": "Zavora Technologies Ltd"
+  },
+  "description": " Shopmate Solution",
+  "name": "shopmate-solution",
+  "proxy": "http://localhost:5000/api",
+  "scripts": {
+    "client": "npm start --prefix ShopmateApp",
+    "server": "set NODE_ENV=development&& set DEBUG=app:*&& set NODE_CONFIG_DIR=./ShopmateAPI/config&& nodemon ./ShopmateAPI/index.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "version": "1.0.0",
+  "dependencies": {}
+}

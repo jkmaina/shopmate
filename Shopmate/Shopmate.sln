@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Server", "Server\Server.njsproj", "{6BD96CA8-B87D-4493-A5F9-2638F8D72576}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ShopmateAPI", "ShopmateAPI\ShopmateAPI.njsproj", "{6BD96CA8-B87D-4493-A5F9-2638F8D72576}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ShopmateApp", "ShopmateApp\ShopmateApp.njsproj", "{BFEAD36B-47FE-4479-881B-49BB0DF36FC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFA8F08B-89BE-4A49-A7C4-681DBA6CB446}"
+	ProjectSection(SolutionItems) = preProject
+		package.json = package.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{6BD96CA8-B87D-4493-A5F9-2638F8D72576}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BD96CA8-B87D-4493-A5F9-2638F8D72576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BD96CA8-B87D-4493-A5F9-2638F8D72576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEAD36B-47FE-4479-881B-49BB0DF36FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEAD36B-47FE-4479-881B-49BB0DF36FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEAD36B-47FE-4479-881B-49BB0DF36FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEAD36B-47FE-4479-881B-49BB0DF36FC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

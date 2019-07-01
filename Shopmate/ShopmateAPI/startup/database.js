@@ -12,6 +12,9 @@ module.exports = new Sequelize(config.get('database.name'), config.get('database
         idle: 10000
     },
     timestamps: false,
-    logging: (msg) => winston.info(msg)
+    logging: (msg) => winston.info(msg),
+    dialectOptions: {
+        multipleStatements: true
+    }
 });
 
